@@ -4,35 +4,75 @@
 ![Pixel Art](https://img.shields.io/badge/Pixel%20Art-FF6F61?style=for-the-badge&logo=itch-io&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## About the Project
-This game project was created by three students from **IF Sudeste MG - Campus Rio Pomba**: **Heitor Pereira Pinto, Natan de Souza Oliveira, and João Victor Lana**.  
 
-The game was a school assignment for the **Integrated Technical Course in Computer Science**, where we had to design a game and present it to the course instructors (**Bianca Portes de Castro and Lucas Grassano Lattari**).  
+A 2D game developed in **Python using Pygame**, focused on gameplay logic, game states, and structured code organization.
 
-The original idea was a simple text-based game, but we decided to make it more elaborate with graphics and animations, resulting in the 2D game **"The Adventures of Cleiton"**.
+This project was created in an academic context and received **regional recognition**, highlighting the practical application of programming concepts in game development.
 
 ---
 
-## About the Game
-The game is inspired by **Homer's "Odyssey"**, where **Cleiton** tries to return to his homeland, Errijota.  
+## 🎮 Game Menu Preview
 
-Before embarking, Cleiton argues with the King of the Seas, **Poseidon**, and faces various adventures over approximately 20 years until he finally reaches his homeland **Errijota**.
+![Game Menu Screen](gameview.jpeg)
 
----
-
-## Libraries Used
-We used the following Python libraries to build the game:
-
-- **Pygame:** To create the entire graphical interface and game music, from the menu to the ending.  
-- **Webbrowser:** To display all the cutscenes.  
-- **Random:** To generate random sound effects for the Cyclops.  
-- **Math:** To make the Cyclops follow Cleiton in an attempt to defeat him.  
+> Main menu screen showcasing navigation options such as Start, Credits, and Exit.
 
 ---
 
-## Note
-The game is not intended for profit; it was purely an academic project that we enjoyed creating and decided to share here on GitHub.  
+## 🧠 Project Overview
+
+The game was designed to apply and demonstrate core concepts of **2D game development**, including:
+- Game loop control
+- Player interaction
+- State management (menu, gameplay, credits)
+- Visual rendering and event handling
+
+The project emphasizes **clean structure and logic**, rather than complex graphics.
 
 ---
 
-### 🎉 We hope you enjoy the project!!!
+## ✨ Features
+
+- Interactive main menu
+- Keyboard-based navigation
+- Game loop with update and render cycles
+- Modular game states (menu, gameplay, credits)
+- Simple 2D graphics and animations
+- Organized asset handling
+
+---
+
+## 🕹️ Controls
+
+- Keyboard input for menu navigation  
+- Keyboard controls for player movement during gameplay  
+
+*(Exact keys can be adjusted or documented in code comments.)*
+
+---
+
+## ⚙️ Game Engine & Architecture
+
+- Built with **Pygame**
+- Custom game loop implementation
+- Event-driven input handling
+- Separation of concerns between game states
+- Asset management for images and resources
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Pygame**
+- Basic 2D graphics and animation handling
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository  
+2. Install the required dependencies:
+```bash
+pip install pygame
+
